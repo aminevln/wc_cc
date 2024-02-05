@@ -1,1 +1,57 @@
 
+*{
+    font-family: ocr-b-std, monospace;
+font-style: normal;
+font-weight: 400;
+}
+body{
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 100vh;
+    background: #323232;
+}
+#container{
+    width: 350px;
+    height: 220px;
+    border-radius: 5%;
+    background: rgb(192,174,238);
+    background: radial-gradient(circle, rgba(192,174,238,1) 0%, rgba(68,62,145,1) 100%);
+    position: relative;  
+}
+#circuit{
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#circuit>img{
+    width: 70px;
+}
+#farmName{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px;
+}
+#sim{
+    width: 53px;
+    height: 36px;
+    border-radius: 5%;
+    position: absolute;
+    margin-left: 30px;
+    top: 30%;
+    left: 0;
+    background: rgb(223,211,2);
+    background: linear-gradient(90deg, rgba(223,211,2,1) 0%, rgba(213,160,0,1) 100%); 
+    border: 1px solid rgba(110,109,108,255);
+}
+#sim:nth-child(1){
+    width: 100%;
+    border: 1px solid rgba(110,109,108,255);
+}
+#sim:nth-child(2){}
+#sim:nth-child(3){}
